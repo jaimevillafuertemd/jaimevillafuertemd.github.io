@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <script type="text/javascript">
+if (navigator.appVersion.indexOf("Win")!=-1) {
+    document.write('<link rel="stylesheet" type="text/css" media="all" href="fonts/source-serif-a.css" />');
+} else if (navigator.appVersion.indexOf("Mac")!=-1) {
+    if (navigator.userAgent.match(/iPad/i) != null) {
+        document.write('<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="fonts/source-serif-b.css" type="text/css" />');
+        document.write('<link rel="stylesheet" media="only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2)" type="text/css" href="fonts/source-serif-a.css" />');
+    } else {
+        document.write('<link rel="stylesheet" type="text/css" media="all" href="fonts/source-serif-b.css" />');
+    }
+} else {
+    document.write('<link rel="stylesheet" type="text/css" media="all" href="fonts/source-serif-a.css" />');
+}
+
+</script>
+
+  <title>Ex06 gap | Typography for Lawyers</title>
+  <link rel="stylesheet" type="text/css" media="all" href="/styles.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="/fonts/non-equity.css" />
+  <meta name="format-detection" content="telephone=no">
+
+<script type="text/javascript">
+var isFirefox = typeof InstallTrigger !== 'undefined';
+if (isFirefox) {
+document.write('<link rel="stylesheet" type="text/css" media="all" href="/firefox.css" />');
+}
+var maybe_ie_ua = window.navigator.userAgent;
+ // IE 10
+// maybe_ie_ua = 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)';
+
+// IE 11
+// maybe_ie_ua = 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko';
+
+// 'MSIE' key detects IE10 and before; 'Trident' key detects IE11
+if (maybe_ie_ua.indexOf('MSIE ') > 0 || maybe_ie_ua.indexOf('Trident/') > 0) {
+  document.write('<link rel="stylesheet" type="text/css" media="all" href="/ie.css" />');
+}
+
+</script>
+
+<script type="text/javascript">
+  function jumpToCode() {
+    code_value = document.forms['codeform'].elements['codefield'].value;
+    window.location.href = "http://typo.la/" + code_value;
+    return false;
+  }
+</script>
+
+
+</head>
+
+<body><body>  <div id="top-stripe"></div>
+<div id="content"><div id="doc"><h2 class="section">ex06 gap</h2><p>Una eti­queta muy impor­tante a mi pare­cer es gap que se encarga de los saltos de línea:<br/>Por ejem­plo nor­mal­mente un text se ve de la sigu­iente man­era sin gap:</p><p>La obesi­dad es el fac­tor de riesgo más impor­tante para que aumente la pre­sión arte­r­ial y para tener enfer­medades car­dio­vas­cu­lares. Sobre todo el diámetro abdom­i­nal tiene una relación directa con la hiperten­sión. Además jun­tas, la obesi­dad y la pre­sión alta, favore­cen el desar­rollo de dia­betes, infar­tos de corazón, der­rames cere­brales e insu­fi­cien­cia cardíaca.</p><p>La obesi­dad puede aumen­tar la pre­sión arte­r­ial por var­ios mecan­is­mos rela­ciona­dos con el exceso de insulina y de tejido adi­poso. Estas dos condi­ciones se encuen­tran pre­sentes en las per­sonas obe­sas o que tienen demasi­ada grasa acu­mu­lada.</p><p>Aquí vemos dos pár­rafos sep­a­ra­dos por un salto de línea.</p><p>Así que ¿qué pasaría si usamos gap con­jun­ta­mente con el salto de línea?:</p><p>La obesi­dad es el fac­tor de riesgo más impor­tante para que aumente la pre­sión arte­r­ial y para tener enfer­medades car­dio­vas­cu­lares. Sobre todo el diámetro abdom­i­nal tiene una relación directa con la hiperten­sión. Además jun­tas, la obesi­dad y la pre­sión alta, favore­cen el desar­rollo de dia­betes, infar­tos de corazón, der­rames cere­brales e insu­fi­cien­cia cardíaca.</p><div style="height: 1.5rem"></div><p>La obesi­dad puede aumen­tar la pre­sión arte­r­ial por var­ios mecan­is­mos rela­ciona­dos con el exceso de insulina y de tejido adi­poso. Estas dos condi­ciones se encuen­tran pre­sentes en las per­sonas obe­sas o que tienen demasi­ada grasa acu­mu­lada.</p><p>Así el espa­cio es un poco más grande.<br/>Aquí es bueno aco­tar que la eti­queta gap puede recibir un argu­mento que es un número.<br/>por ejem­plo podemos definir el número 2:</p><p>Y ahora ver­e­mos que pasa con estos dos pár­rafos sep­a­ra­dos por un gap que recibe el valor de 2:</p><p>La obesi­dad es el fac­tor de riesgo más impor­tante para que aumente la pre­sión arte­r­ial y para tener enfer­medades car­dio­vas­cu­lares. Sobre todo el diámetro abdom­i­nal tiene una relación directa con la hiperten­sión. Además jun­tas, la obesi­dad y la pre­sión alta, favore­cen el desar­rollo de dia­betes, infar­tos de corazón, der­rames cere­brales e insu­fi­cien­cia cardíaca.</p><div style="height: 2rem"></div><p>La obesi­dad puede aumen­tar la pre­sión arte­r­ial por var­ios mecan­is­mos rela­ciona­dos con el exceso de insulina y de tejido adi­poso. Estas dos condi­ciones se encuen­tran pre­sentes en las per­sonas obe­sas o que tienen demasi­ada grasa acu­mu­lada.</p><p>y ahora ver­e­mos que pasa con un gap que recibe el valor de 5:</p><p>La obesi­dad es el fac­tor de riesgo más impor­tante para que aumente la pre­sión arte­r­ial y para tener enfer­medades car­dio­vas­cu­lares. Sobre todo el diámetro abdom­i­nal tiene una relación directa con la hiperten­sión. Además jun­tas, la obesi­dad y la pre­sión alta, favore­cen el desar­rollo de dia­betes, infar­tos de corazón, der­rames cere­brales e insu­fi­cien­cia cardíaca.</p><div style="height: 5rem"></div><p>La obesi­dad puede aumen­tar la pre­sión arte­r­ial por var­ios mecan­is­mos rela­ciona­dos con el exceso de insulina y de tejido adi­poso. Estas dos condi­ciones se encuen­tran pre­sentes en las per­sonas obe­sas o que tienen demasi­ada grasa acu­mu­lada.</p></div>
+<div style="height: 1rem"></div>
+<ul class="subnav"></ul></div>
+
+<div class="nav-outer" id="prev"><a href="ex05-link.html"><div class="nav-inner"><div class="nav-flex">&lt;</div></div></a></div>
+<div class="nav-outer" id="next"><a href="ex07-numbered-list.html"><div class="nav-inner"><div class="nav-flex">&gt;</div></div></a></div>
+
+<div class="nav-outer" id="bottom"><div class="nav-inner"><span id="left"><a class="xref" hyphens="none" href="ex05-link.html">ex05 link</a></span>
+  <span><a class="xref" hyphens="none" href="/index.html">TFL home</a></span>
+  <span id="right"><a class="xref" hyphens="none" href="ex07-numbered-list.html">ex07 numbered list</a></span></div></div></body></body>
+
+
+</html>
+<!-- © 2008–2017 Matthew Butterick · website made with Pollen (pollenpub.com) -->

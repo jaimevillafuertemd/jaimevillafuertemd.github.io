@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+    <script type="text/javascript">
+if (navigator.appVersion.indexOf("Win")!=-1) {
+    document.write('<link rel="stylesheet" type="text/css" media="all" href="fonts/source-serif-a.css" />');
+} else if (navigator.appVersion.indexOf("Mac")!=-1) {
+    if (navigator.userAgent.match(/iPad/i) != null) {
+        document.write('<link rel="stylesheet" media="only screen and (max-device-width: 1024px)" href="fonts/source-serif-b.css" type="text/css" />');
+        document.write('<link rel="stylesheet" media="only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2)" type="text/css" href="fonts/source-serif-a.css" />');
+    } else {
+        document.write('<link rel="stylesheet" type="text/css" media="all" href="fonts/source-serif-b.css" />');
+    }
+} else {
+    document.write('<link rel="stylesheet" type="text/css" media="all" href="fonts/source-serif-a.css" />');
+}
+
+</script>
+
+  <title>Ex02 home-link | Typography for Lawyers</title>
+  <link rel="stylesheet" type="text/css" media="all" href="/styles.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="/fonts/non-equity.css" />
+  <meta name="format-detection" content="telephone=no">
+
+<script type="text/javascript">
+var isFirefox = typeof InstallTrigger !== 'undefined';
+if (isFirefox) {
+document.write('<link rel="stylesheet" type="text/css" media="all" href="/firefox.css" />');
+}
+var maybe_ie_ua = window.navigator.userAgent;
+ // IE 10
+// maybe_ie_ua = 'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.2; Trident/6.0)';
+
+// IE 11
+// maybe_ie_ua = 'Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko';
+
+// 'MSIE' key detects IE10 and before; 'Trident' key detects IE11
+if (maybe_ie_ua.indexOf('MSIE ') > 0 || maybe_ie_ua.indexOf('Trident/') > 0) {
+  document.write('<link rel="stylesheet" type="text/css" media="all" href="/ie.css" />');
+}
+
+</script>
+
+<script type="text/javascript">
+  function jumpToCode() {
+    code_value = document.forms['codeform'].elements['codefield'].value;
+    window.location.href = "http://typo.la/" + code_value;
+    return false;
+  }
+</script>
+
+
+</head>
+
+<body><body>  <div id="top-stripe"></div>
+<div id="content"><div id="doc"><h2 class="section">ex02 home-link</h2><p>Una eti­queta que llama la aten­ción es home-link. Esta eti­queta<br/>tiene la apari­en­cia de un botón.</p><p>Por ejem­plo, un enlace a los con­tenidos sería así:<br/><a class="home-link" href="toc.html">con­tenidos</a></p><p>Un enlace al índice sería:<br/><a class="home-link" href="index.html">indice</a></p><p>Un enlace al pref­a­cio sería:<br/><a class="home-link" href="prefacio-por-andres-wong.html">pref­a­cio</a></p><p>Un enlace a la prueba 3 sería:<br/><a class="home-link" href="prueba3-un-poco-mas.html">prueba 3</a></p></div>
+<div style="height: 1rem"></div>
+<ul class="subnav"></ul></div>
+
+<div class="nav-outer" id="prev"><a href="ex01-xref.html"><div class="nav-inner"><div class="nav-flex">&lt;</div></div></a></div>
+<div class="nav-outer" id="next"><a href="ex03-margin-note.html"><div class="nav-inner"><div class="nav-flex">&gt;</div></div></a></div>
+
+<div class="nav-outer" id="bottom"><div class="nav-inner"><span id="left"><a class="xref" hyphens="none" href="ex01-xref.html">ex01 xref</a></span>
+  <span><a class="xref" hyphens="none" href="/index.html">TFL home</a></span>
+  <span id="right"><a class="xref" hyphens="none" href="ex03-margin-note.html">ex03 margin-note</a></span></div></div></body></body>
+
+
+</html>
+<!-- © 2008–2017 Matthew Butterick · website made with Pollen (pollenpub.com) -->
